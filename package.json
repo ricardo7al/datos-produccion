@@ -1,0 +1,12 @@
+{
+  "name": "datos-de-produccion",
+  "version": "1.0.0",
+  "description": "Análisis de Datos de Producción\r Este proyecto proporciona una solución para analizar la producción o cualquier tipo de métrica en función de un conjunto de datos. La solución permite clasificar los elementos según una métrica, calcular un promedio, identificar los valores máximos y mínimos, y filtrar los elementos que superan el promedio.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
