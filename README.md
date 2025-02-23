@@ -48,8 +48,6 @@ Salida esperada
   itemsPorEncimaDelPromedio: ["Producto B", "Producto C", "Producto E"]
 }
 
-Estructura del proyecto
-
 analisis-datos-produccion/
 ├── index.js              # Archivo principal con el código de análisis
 ├── README.md             # Este archivo de documentación
