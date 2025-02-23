@@ -33,13 +33,13 @@ const datos = [
   { item: 'Producto E', cantidad: 260, fecha: '2025-01-19' },
 ];
 
-Uso
+## Uso
 
 Una vez descargado el repositorio y configurado el entorno, abre el archivo index.js y ejecuta el siguiente código en la terminal para analizar los datos de producción:
 
 node index.js
 
-Salida esperada
+## Salida esperada
 
 {
   promedio: 184,
