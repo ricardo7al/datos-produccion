@@ -39,7 +39,7 @@ const datos = [
   { item: 'Producto E', cantidad: 260, fecha: '2025-01-19' },
 ];
 
-## Salida esperada
+Salida esperada
 
 {
   promedio: 184,
@@ -48,7 +48,7 @@ const datos = [
   itemsPorEncimaDelPromedio: ["Producto B", "Producto C", "Producto E"]
 }
 
-## Estructura del proyecto
+Estructura del proyecto
 
 analisis-datos-produccion/
 ├── index.js              # Archivo principal con el código de análisis
