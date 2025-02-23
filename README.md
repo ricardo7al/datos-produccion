@@ -20,19 +20,6 @@ La función `analizarDatos()` toma un array de objetos que contienen datos relev
 - **Valor mínimo**: Identifica el elemento con el valor mínimo en la métrica.
 - **Elementos por encima del promedio**: Filtra los elementos cuya métrica es superior al promedio.
 
-### Ejemplo de uso
-
-#### Datos de entrada:
-
-```javascript
-const datos = [
-  { item: 'Producto A', cantidad: 150, fecha: '2025-01-15' },
-  { item: 'Producto B', cantidad: 230, fecha: '2025-01-16' },
-  { item: 'Producto C', cantidad: 180, fecha: '2025-01-17' },
-  { item: 'Producto D', cantidad: 120, fecha: '2025-01-18' },
-  { item: 'Producto E', cantidad: 260, fecha: '2025-01-19' },
-];
-
 ## Uso
 
 Una vez descargado el repositorio y configurado el entorno, abre el archivo index.js y ejecuta el siguiente código en la terminal para analizar los datos de producción:
@@ -48,9 +35,24 @@ node index.js
   itemsPorEncimaDelPromedio: ["Producto B", "Producto C", "Producto E"]
 }
 
-Estructura del proyecto
+## Estructura del proyecto
 
 analisis-datos-produccion/
 ├── index.js              # Archivo principal con el código de análisis
 ├── README.md             # Este archivo de documentación
 └── package.json          # Archivo de configuración del proyecto (si usas Node.js)
+
+
+### Ejemplo de uso
+
+#### Datos de entrada:
+
+```javascript
+const datos = [
+  { item: 'Producto A', cantidad: 150, fecha: '2025-01-15' },
+  { item: 'Producto B', cantidad: 230, fecha: '2025-01-16' },
+  { item: 'Producto C', cantidad: 180, fecha: '2025-01-17' },
+  { item: 'Producto D', cantidad: 120, fecha: '2025-01-18' },
+  { item: 'Producto E', cantidad: 260, fecha: '2025-01-19' },
+];
+
